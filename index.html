@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kuntak Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #d11b5a;
+    }
+    iframe {
+      width: 100%;
+      max-width: 720px;
+      height: 480px;
+      border: none;
+      margin-top: 20px;
+    }
+    .button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      background-color: #008CBA;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌟 Kuntak Game 🌟</h1>
+  <p> નીચે બટન ક્લિક કરો અને રમવાનું શરૂ કરો! </p>
+
+  <button class="button" onclick="document.getElementById('gameframe').style.display='block'; this.style.display='none';">🎮 Play Now</button>
+
+  <iframe id="gameframe" src="https://games.construct.net/2752/latest" style="display: none;"></iframe>
+</body>
+</html>

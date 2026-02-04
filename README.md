@@ -1,0 +1,2 @@
+# kunpixel
+KHAMKARI_MAA_KHODAL
